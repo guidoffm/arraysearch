@@ -26,6 +26,6 @@ public class App {
 
         System.out.println(result);
 
-        System.exit(0);
+        // System.exit(0);
     }
 }

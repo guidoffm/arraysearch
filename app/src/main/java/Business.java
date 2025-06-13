@@ -15,4 +15,7 @@ public class Business {
         return "Business done!";
     }
 
+    public int add(int a, int b) {
+        return a + b;
+    }
 }

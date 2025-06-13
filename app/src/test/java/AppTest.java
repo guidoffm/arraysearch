@@ -9,7 +9,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
 
-class AppTest {
+public class AppTest {
 
     @Test
     void testMain() {
@@ -22,5 +22,8 @@ class AppTest {
 
         // Reset the standard output
         System.setOut(System.out);
+
+        assertTrue(outContent.toString().contains("Business done!"));
+
     }
 }
